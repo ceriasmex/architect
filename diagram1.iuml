@@ -1,6 +1,8 @@
 @startuml
 actor julio
 actor Caty
+actor Mateo
+actor Tadeo
 julio->caty: hola
 rectangle familia {
  customer -- (checkout)
