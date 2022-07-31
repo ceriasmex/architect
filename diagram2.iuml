@@ -1,0 +1,13 @@
+@startuml
+actor julio
+actor Caty
+actor Mateo
+actor Tadeo
+julio->caty: hola
+rectangle familia {
+ customer -- (checkout)
+ (checkout).>(checkout): include
+ (help).>(checkout): extend 
+ (checkout)--clerk
+}
+@enduml
